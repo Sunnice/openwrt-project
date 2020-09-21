@@ -21,5 +21,4 @@ sed -i '$a src-git jerryk https://github.com/jerrykuku/openwrt-package' feeds.co
 ./scripts/feeds update -a
 ./scripts/feeds install -a
  
- rm -rf package/ctcgfw/filebrowser
  
